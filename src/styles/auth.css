@@ -1,0 +1,123 @@
+/* ------------------ Auth Container ------------------ */
+.auth_container {
+  max-width: 400px;            
+  min-height: 450px;           
+  margin: 50px auto;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(145deg, #ffffff, #e0f0ff);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ------------------ Heading ------------------ */
+.auth_container h2 {
+  margin-bottom: 25px;
+  color: #003580;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ------------------ Form Inputs ------------------ */
+.auth_container form input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.auth_container form input:focus {
+  border-color: #003580;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 53, 128, 0.2);
+}
+
+/* ------------------ Submit Button ------------------ */
+.auth_container form button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #003580;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.auth_container form button:hover {
+  background-color: #0050c0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 80, 192, 0.3);
+}
+
+/* ------------------ Admin Buttons ------------------ */
+.admin_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.admin_buttons button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #007700;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.admin_buttons button:hover {
+  background-color: #009900;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 153, 0, 0.3);
+}
+
+/* ------------------ Responsive for Mobile (<=500px) ------------------ */
+@media (max-width: 500px) {
+  .auth_container {
+    width: 90%;
+    min-height: 500px; /* increased height */
+    padding: 25px 15px;
+  }
+
+  .auth_container h2 {
+    font-size: 1.5rem;
+  }
+
+  .auth_container form input,
+  .auth_container form button,
+  .admin_buttons button {
+    width: 95%;
+  }
+}
+
+/* ------------------ Responsive for Tablets (501px to 768px) ------------------ */
+@media (min-width: 501px) and (max-width: 768px) {
+  .auth_container {
+    width: 80%;
+    min-height: 520px; /* slightly taller box */
+    padding: 30px 20px;
+  }
+
+  .auth_container h2 {
+    font-size: 1.7rem;
+  }
+
+  .auth_container form input,
+  .auth_container form button,
+  .admin_buttons button {
+    width: 90%;
+  }
+}

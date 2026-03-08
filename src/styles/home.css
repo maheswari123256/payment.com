@@ -1,0 +1,78 @@
+/* home container */
+
+.home_container{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(135deg,#f5f9ff,#eef4ff);
+min-height:80vh;
+}
+
+/* title */
+
+.home_title{
+font-size:42px;
+font-weight:700;
+margin-bottom:25px;
+color:#003580;
+animation:fadeDown 0.8s ease;
+}
+
+/* subtitle effect optional */
+
+.home_title::after{
+content:"";
+display:block;
+width:70px;
+height:4px;
+background:#ff5a5f;
+margin:12px auto 0;
+border-radius:3px;
+}
+
+/* hotel grid */
+
+.home_hotels{
+margin-top:50px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+animation:fadeUp 1s ease;
+}
+
+/* card hover effect */
+
+.home_hotels .hotel_card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
+transition:0.3s;
+}
+
+/* animations */
+
+@keyframes fadeDown{
+
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}

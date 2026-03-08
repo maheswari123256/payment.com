@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fa;
+}
+
+/* Home Page */
+
+.home_container{
+padding:60px 80px;
+}
+
+.home_title{
+font-size:40px;
+font-weight:700;
+margin-bottom:25px;
+color:#222;
+}
+
+/* Home Hotels Grid */
+
+.home_hotels{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+/* Hotel List Page */
+
+.hotel_list_container{
+display:flex;
+gap:20px;
+padding:20px 40px;
+}
+
+/* Hotels Grid */
+
+.hotel_grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+flex:1;
+}

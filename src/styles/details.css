@@ -1,0 +1,92 @@
+.details_container{
+padding:60px 20px;
+display:flex;
+justify-content:center;
+background:#f5f7fa;
+}
+
+/* card layout */
+
+.details_card{
+display:flex;
+gap:40px;
+max-width:950px;
+background:white;
+padding:30px;
+border-radius:14px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+align-items:center;
+transition:0.3s;
+}
+
+/* hover card effect */
+
+.details_card:hover{
+transform:translateY(-4px);
+box-shadow:0 12px 35px rgba(0,0,0,0.12);
+}
+
+/* image */
+
+.details_img{
+width:360px;
+height:250px;
+object-fit:cover;
+border-radius:12px;
+}
+
+/* info section */
+
+.details_info{
+display:flex;
+flex-direction:column;
+gap:14px;
+flex:1;
+}
+
+.details_title{
+font-size:28px;
+font-weight:700;
+color:#222;
+}
+
+.details_city{
+color:#777;
+font-size:15px;
+}
+
+/* price */
+
+.details_price{
+font-size:22px;
+font-weight:bold;
+color:#003580;
+}
+
+/* rating */
+
+.details_rating{
+color:#f5a623;
+font-weight:600;
+font-size:16px;
+}
+
+/* booking button */
+
+.book_btn{
+margin-top:10px;
+padding:12px 30px;
+background:#ff5a5f;
+border:none;
+color:white;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+transition:all 0.3s ease;
+}
+
+.book_btn:hover{
+background:#e04848;
+transform:translateY(-2px);
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
