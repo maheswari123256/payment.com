@@ -1,13 +1,13 @@
 [
-  { "id": 1, "name": "Luxury Palace", "city": "Chennai", "price": 2500, "rating": 4.5, "image": "/assets/hotel1.jpg" },
-  { "id": 2, "name": "Sea View Resort", "city": "Goa", "price": 3500, "rating": 4.8, "image": "/assets/hotel2.jpg" },
-  { "id": 3, "name": "Mountain Stay", "city": "Madurai", "price": 2000, "rating": 4.2, "image": "/assets/hotel3.jpg" },
-  { "id": 4, "name": "City Comforts", "city": "Chennai", "price": 1800, "rating": 4.0, "image": "/assets/hotel4.jpg" },
-  { "id": 5, "name": "Beachside Inn", "city": "Goa", "price": 3000, "rating": 4.3, "image": "/assets/hotel2.jpg" },
-  { "id": 6, "name": "Hilltop Retreat", "city": "Madurai", "price": 2200, "rating": 4.6, "image": "/assets/hotel4.jpg" },
-  { "id": 7, "name": "Grand Chennai Hotel", "city": "Chennai", "price": 4000, "rating": 4.7, "image": "/assets/hotel5.jpg" },
-  { "id": 8, "name": "Royal Madurai Stay", "city": "Madurai", "price": 2700, "rating": 4.4, "image": "/assets/hotel5.jpg" },
-  { "id": 9, "name": "Sunset Paradise", "city": "Goa", "price": 3800, "rating": 4.9, "image": "/assets/hotel2.jpg" },
-  { "id": 12, "name": "Golden Sands Goa", "city": "Goa", "price": 3600, "rating": 4.7, "image": "/assets/hotel2.jpg" },
-  { "id": 15, "name": "Goa Lighthouse Inn", "city": "Goa", "price": 3900, "rating": 4.8, "image": "/assets/hotel2.jpg" }
+  { "id": 1, "name": "Luxury Palace", "city": "Chennai", "price": 2500, "rating": 4.5, "image": "assets/hotel1.jpg" },
+  { "id": 2, "name": "Sea View Resort", "city": "Goa", "price": 3500, "rating": 4.8, "image": "assets/hotel2.jpg" },
+  { "id": 3, "name": "Mountain Stay", "city": "Madurai", "price": 2000, "rating": 4.2, "image": "assets/hotel3.jpg" },
+  { "id": 4, "name": "City Comforts", "city": "Chennai", "price": 1800, "rating": 4.0, "image": "assets/hotel4.jpg" },
+  { "id": 5, "name": "Beachside Inn", "city": "Goa", "price": 3000, "rating": 4.3, "image": "assets/hotel2.jpg" },
+  { "id": 6, "name": "Hilltop Retreat", "city": "Madurai", "price": 2200, "rating": 4.6, "image": "assets/hotel4.jpg" },
+  { "id": 7, "name": "Grand Chennai Hotel", "city": "Chennai", "price": 4000, "rating": 4.7, "image": "assets/hotel5.jpg" },
+  { "id": 8, "name": "Royal Madurai Stay", "city": "Madurai", "price": 2700, "rating": 4.4, "image": "assets/hotel5.jpg" },
+  { "id": 9, "name": "Sunset Paradise", "city": "Goa", "price": 3800, "rating": 4.9, "image": "assets/hotel2.jpg" },
+  { "id": 12, "name": "Golden Sands Goa", "city": "Goa", "price": 3600, "rating": 4.7, "image": "assets/hotel2.jpg" },
+  { "id": 15, "name": "Goa Lighthouse Inn", "city": "Goa", "price": 3900, "rating": 4.8, "image": "assets/hotel2.jpg" }
 ]
